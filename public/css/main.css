@@ -9,6 +9,10 @@ main {
     text-align: center;
 }
 
+hr {
+    width: 45%;
+}
+
 a {
     color: #9ccfd8;
 }
