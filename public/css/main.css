@@ -1,0 +1,14 @@
+html, main {
+    background-color: #191724;
+    color: #e0def4;
+    font-family: MS Gothic, monospace;
+    font-size: 1.2vh;
+}
+
+main {
+    text-align: center;
+}
+
+a {
+    color: #9ccfd8;
+}
