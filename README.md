@@ -6,17 +6,7 @@
 
 # 1,500 commits!!
 
-## URLs to my website:
-### [Main Domain](https://jackpurrin.me/)  
-
-### [Cloudflare Workers Mirror](https://me.jackpurrin.workers.dev)
-
-### [Nekoweb](https://jackpurrin.nekoweb.org/)
-
-## Beta/Dev Versions of my website
-### [Main Domain](https://dev.jackpurrin.me/)
-
-### [Cloudflare Workers Mirror](https://dev.jackpurrin.workers.dev/)
+# [Check the site out!](https://jackpurrin.me/)  
 
 ## TODO:
 
