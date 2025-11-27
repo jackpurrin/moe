@@ -6,9 +6,9 @@ html {
 }
 
 main {
-    width: 50%;
+    width: var(--site-width);
     background-color: var(--main-bkg);
-    border: 0.2rem var(--border-color) solid;
+    border: var(--border) var(--border-color) solid;
     margin: auto;
     filter: drop-shadow(var(--drop-shadow) var(--drop-shadow) var(--border-color));
 }
@@ -21,7 +21,7 @@ article {
 aside {
     padding: var(--padding);
     text-align: center;
-    width: 40%;
+    width: var(--aside-width);
 }
 
 box {
@@ -30,7 +30,14 @@ box {
 }
 
 header {
-    background-color: #26233a;
+    background-color: var(--header-color);
     padding: var(--padding) !important;
+    margin: 0;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0px;
     margin: 0;
 }
