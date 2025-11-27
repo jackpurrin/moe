@@ -1,22 +1,31 @@
-html, main {
-    background-color: #191724;
-    color: #e0def4;
+@import url(vars.css);
+
+html {
+    background-color: var(--bkg-color);
+    color: var(--font-color);
     font-family: MS Gothic, monospace;
-    font-size: 0.9rem;
+    font-size: var(--font-size);
+}
+
+main {
+    width: 40%;
+    background-color: var(--main-bkg);
+    border: 0.2rem var(--border-color) solid;
+    margin: auto;
+    width: 50%;
+    filter: drop-shadow(var(--drop-shadow) var(--drop-shadow) var(--border-color));
+    padding: var(--padding);
 }
 
 h1 {
     font-style: italic;
+    margin: 0;
 }
 
 main {
     text-align: center;
 }
 
-hr {
-    width: 45%;
-}
-
 a {
-    color: #9ccfd8;
+    color: var(--link-color);
 }
