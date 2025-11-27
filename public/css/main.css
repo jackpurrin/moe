@@ -6,11 +6,20 @@ html {
 }
 
 main {
-    width: 40%;
+    width: 70%;
     background-color: var(--main-bkg);
     border: 0.2rem var(--border-color) solid;
     margin: auto;
-    width: 50%;
     filter: drop-shadow(var(--drop-shadow) var(--drop-shadow) var(--border-color));
-    padding: var(--padding);
+}
+
+article {
+    padding: var(--padding)
+}
+
+header {
+    background-color: #26233a;
+    padding: var(--padding) !important;
+    margin: 0;
+    text-align: center;
 }
