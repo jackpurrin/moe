@@ -5,6 +5,10 @@ html, main {
     font-size: 0.9rem;
 }
 
+h1 {
+    font-style: italic;
+}
+
 main {
     text-align: center;
 }
