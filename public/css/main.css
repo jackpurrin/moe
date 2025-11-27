@@ -6,7 +6,7 @@ html {
 }
 
 main {
-    width: 70%;
+    width: 50%;
     background-color: var(--main-bkg);
     border: 0.2rem var(--border-color) solid;
     margin: auto;
@@ -14,7 +14,19 @@ main {
 }
 
 article {
-    padding: var(--padding)
+    padding: var(--padding);
+    padding-left: 0px;
+}
+
+aside {
+    padding: var(--padding);
+    text-align: center;
+    width: 40%;
+}
+
+box {
+    display: flex;
+    flex-direction: row;
 }
 
 header {
