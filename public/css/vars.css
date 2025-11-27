@@ -1,0 +1,11 @@
+:root {
+    --bkg-color: #191724;
+    --main-bkg: #1f1d2e;
+    --font-color: #e0def4;
+    --font-size: 0.9rem;
+    --link-color: #9ccfd8;
+    --border-color: #524f67;
+    --border: .2rem;
+    --drop-shadow: .7rem;
+    --padding: 1.5rem;
+}
