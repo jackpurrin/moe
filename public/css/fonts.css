@@ -2,9 +2,11 @@ html {
     color: var(--font-color);
     font-family: MS Gothic, monospace;
     font-size: var(--font-size);
+    text-align: center;
 }
 
 h1 {
+    color: var(--font-color) !important;
     font-style: italic;
     font-weight: 10;
     margin: 0;
