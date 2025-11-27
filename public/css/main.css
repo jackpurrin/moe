@@ -35,6 +35,10 @@ header {
     margin: 0;
 }
 
+hr {
+    border-style: dashed;
+    margin: 10px;
+}
 
 ul {
     list-style: none;
