@@ -6,9 +6,11 @@
     --header-color: #26233a;
     --font-color: #e0def4;
     --font-size: 0.9rem;
-    --link-color: #9ccfd8;
+    --h1-color: #ebbcba;
+    --link-color: #c4a7e7;
     --border-color: #524f67;
     --border: .2rem;
     --drop-shadow: .7rem;
+    --header-padding: .1rem;
     --padding: 1.5rem;
 }

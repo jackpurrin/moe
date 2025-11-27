@@ -6,11 +6,14 @@ html {
 }
 
 h1 {
-    color: var(--font-color) !important;
+    color: var(--h1-color) !important;
     font-style: italic;
     font-weight: 10;
-    margin: 0;
     text-align: center;
+}
+
+h1, h2, h3 {
+    padding: var(--header-padding);
 }
 
 a {
