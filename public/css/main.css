@@ -14,4 +14,3 @@ main {
     filter: drop-shadow(var(--drop-shadow) var(--drop-shadow) var(--border-color));
     padding: var(--padding);
 }
-
