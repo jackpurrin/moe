@@ -1,6 +1,9 @@
 :root {
+    --site-width: 50%;
+    --aside-width: 40%;
     --bkg-color: #191724;
     --main-bkg: #1f1d2e;
+    --header-color: #26233a;
     --font-color: #e0def4;
     --font-size: 0.9rem;
     --link-color: #9ccfd8;
