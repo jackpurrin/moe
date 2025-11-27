@@ -1,0 +1,14 @@
+html {
+    color: var(--font-color);
+    font-family: MS Gothic, monospace;
+    font-size: var(--font-size);
+}
+
+h1 {
+    font-style: italic;
+    margin: 0;
+}
+
+a {
+    color: var(--link-color);
+}
