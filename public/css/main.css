@@ -15,13 +15,14 @@ main {
 
 article {
     padding: var(--padding);
-    padding-left: 0px;
 }
 
 aside {
     padding: var(--padding);
     text-align: center;
     width: var(--aside-width);
+    padding-right: 0px;
+
 }
 
 box {
