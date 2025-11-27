@@ -6,7 +6,9 @@ html {
 
 h1 {
     font-style: italic;
+    font-weight: 10;
     margin: 0;
+    text-align: center;
 }
 
 a {
