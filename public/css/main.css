@@ -40,6 +40,10 @@ hr {
     margin: 10px;
 }
 
+img {
+    max-width: 50%;
+}
+
 ul {
     list-style: none;
     padding: 0px;
