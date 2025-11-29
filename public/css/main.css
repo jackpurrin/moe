@@ -29,7 +29,7 @@ box {
     flex-direction: row;
 }
 
-header {
+header, footer {
     background-color: var(--header-color);
     padding: var(--padding) !important;
     margin: 0;
