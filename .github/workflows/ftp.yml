@@ -12,5 +12,5 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
           server: ftp.jackpurrin.moe
-          username: moe
+          username: moe@jackpurrin.moe
           password: ${{ secrets.ftp_password }}
