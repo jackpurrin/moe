@@ -1,7 +1,16 @@
 :root {
-    --text-clr: rgb(224, 222, 244);
-    --bkg-clr: rgb(25, 23, 36);
-    --link-clr: rgb(196, 167, 231);
-    --sel-clr: rgb(64, 61, 82);
-    --head-clr: rgb(144, 140, 170);
+    --site-width: 50%;
+    --aside-width: 40%;
+    --bkg-color: #191724;
+    --main-bkg: #1f1d2e;
+    --header-color: #26233a;
+    --font-color: #e0def4;
+    --font-size: 0.9rem;
+    --h1-color: #ebbcba;
+    --link-color: #c4a7e7;
+    --border-color: #524f67;
+    --border: .2rem;
+    --drop-shadow: .7rem;
+    --header-padding: .1rem;
+    --padding: 1.5rem;
 }

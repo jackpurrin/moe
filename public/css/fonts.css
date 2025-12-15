@@ -1,53 +1,28 @@
-html,
-body {
-    font-family: "Times New Roman", Times, serif;
+html {
+    color: var(--font-color);
+    font-family: MS Gothic, monospace;
+    font-size: var(--font-size);
     text-align: center;
-    color: var(--text-clr);
-    font-size: 1rem;
-    line-height: 2rem !important;
-    text-shadow: 1px 1px 4px rgb(144, 140, 170);
+    text-shadow: 1px 1px 2px var(--font-color);
     text-transform: lowercase;
 }
 
+h1 {
+    color: var(--h1-color) !important;
+    font-style: italic;
+    font-weight: 10;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    padding: var(--header-padding);
+}
+
 a {
-    color: var(--link-clr);
+    color: var(--link-color);
     text-decoration: none;
-    cursor: url('/assets/cursors/hover/rose.cur'), url('/assets/cursors/hover/rose.png'), url('/assets/cursors/hover/rose.ico'), default  !important;
 }
 
 a:hover {
-    text-decoration: underline 1px;
-    font-size: 0.85rem !important;
-    background-color: var(--sel-clr);
-    border-radius: 5px;
-    font-family: "Courier New", Courier, monospace;
-}
-
-h2 {
-    margin: 0;
-}
-
-h1:hover a {
-    font-size: 2rem !important;
-    font-family: "Times New Roman", Times, serif
-}
-
-main p {
-    width: 40%;
-    margin: 0.5rem;
-}
-
-p::selection,
-a::selection,
-h1::selection,
-h2::selection {
-    background-color: var(--sel-clr);
-}
-h1,
-h2,
-h3 {
-    color: var(--head-clr);
-    font-family: "Courier New", Courier, monospace;
-    font-weight: 500;
-    font-style: italic;
+    font-size: 1.3rem;
 }
