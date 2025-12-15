@@ -11,6 +11,6 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
-          server: jackpurrin.moe
+          server: ftp.jackpurrin.moe
           username: moe
           password: ${{ secrets.ftp_password }}
